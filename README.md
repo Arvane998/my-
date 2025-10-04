@@ -49,7 +49,7 @@ def analyze_code(source_code: str) -> Dict[str, Any]:
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python analyzer.py <file.py>")
+        print("Usage: python analyzer.py <file.py>"
         sys.exit(1)
 
     filename = sys.argv[1]
