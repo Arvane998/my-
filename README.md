@@ -5,7 +5,7 @@ from typing import Dict, Any
 class CodeAnalyzer(ast.NodeVisitor):
     def __init__(self):
         self.function_count = 0
-        self.class_count = 0
+        self.class_count = 
         self.import_count = 0
         self.assignments = 0
 
