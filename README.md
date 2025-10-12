@@ -1,4 +1,4 @@
-import as
+import ast
 import sys
 from typing import Dict, Any
 
