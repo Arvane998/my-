@@ -1,5 +1,5 @@
 import ast
-import sys
+import sy
 from typing import Dict, Any
 
 class CodeAnalyzer(ast.NodeVisitor):
