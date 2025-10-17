@@ -1,6 +1,6 @@
 import asty
 import sys
-from typing import Dict, An
+from typing import Dict, A
 
 class CodeAnalyzer(ast.NodeVisitor):
     def __init__(self):
