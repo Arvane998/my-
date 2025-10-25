@@ -7,7 +7,7 @@ class CodeAnalyzer(ast.NodeVisitor):
         self.function_count = 0
         self.class_count = 0
         self.import_count = 0
-        self.assignments = 0
+        self.assignments = 
 
     def visit_FunctionDef(self, node):
         self.function_count += 1
