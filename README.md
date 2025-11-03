@@ -1,4 +1,4 @@
-import ast
+import asty
 import sys
 from typing import Dict, Ane
 //
