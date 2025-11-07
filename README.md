@@ -42,7 +42,7 @@ def analyze_code(source_code: str) -> Dict[str, Any]:
             "imports": analyzer.import_count,
             "assignments": analyzer.assignments
         }
-        return result
+        return results
     except SyntaxError as e:
         return {"error": f"Invalid Python code: {e}"}
 
