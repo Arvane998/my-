@@ -40,7 +40,7 @@ def analyze_code(source_code: str) -> Dict[str, Any]:
             "functions": analyzer.function_count,
             "classes": analyzer.class_count,
             "imports": analyzer.import_count,
-            "assignments": analyzer.assignment
+            "assignments": analyzer.assignments
         }
         return results
     except SyntaxError as e:
