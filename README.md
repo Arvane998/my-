@@ -1,5 +1,5 @@
 .import asty
-import sys
+import sy
 from typing import Dict, Ane
 //
 class CodeAnalyzer(ast.NodeVisitor):
